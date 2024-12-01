@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        body {
+            /* display: flex; */
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <form action="">
+        <label for="">Select Your Gender</label>
+        <br>
+        <input name="Gender" type="radio">:male
+        <br>
+        <input name="Gender" type="radio">:female
+        <br>
+        <input name="Gender" type="radio">:Choose not to disclose
+        <br>
+        <br>
+        <label for="">Select your country</label>
+        <select name="" id="">
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="America">America</option>
+            <option value="Australia">Australia</option>
+            <option value="Europe">Europe</option>
+        </select>
+        <br><br>
+        <!-- chekbox -->
+        <label for="">Select your hobbies</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Cricket</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Badminton</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Running</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Reading</label>
+        <br>
+        <label for="">Please upload your profile pic</label>
+        <input type="file">
+        <br><br>
+        <label for="">How Satisfactory this survey was ?</label>
+        <input type="range">
+
+    </form>
+
+
+
+    <!-- Ordered and unordered list -->
+    <br>
+
+    <h3>List of Engines in Bikes and Cars</h3>
+    <ul style="list-style-type: circle;">
+        <li>I1</li>
+        <li>I2</li>
+        <li>I3</li>
+        <li>I4</li>
+        <li>I5</li>
+        <li>I6</li>
+        <li>V2</li>
+        <li>V3</li>
+        <li>V4</li>
+        <li>V5</li>
+        <li>V6</li>
+        <li>V8</li>
+        <li>V10</li>
+        <li>V12</li>
+        <li>V16</li>
+        <li>W12</li>
+        <li>W16</li>
+    </ul>
+
+    <h3>List of Car brands</h3>
+    <ul type="a">
+        <li>Audi</li>
+        <li>BMW</li>
+        <li>Aston Martin</li>
+        <li>Mercedes</li>
+        <li>RR</li>
+        <li>Lemborghini</li>
+        <li>Jaguar</li>
+        <li>Land Rover</li>
+        <li>Buggati</li>
+        <li>Konigsegg</li>
+        <li>Maserati</li>
+        <li>Lexus</li>
+        <li>Toyota</li>
+        <li>Ferrari</li>
+        <li>Pagani</li>
+        <li>Mazda</li>
+        <li>Cadillac</li>
+        <li>Ford</li>
+        <li>Subaru</li>
+        <li>Nissan</li>
+        <li>Porsche</li>
+        <li>Bentley</li>
+        <li>Cheverolet</li>
+    </ul>
+
+    <!-- table starts here -->
+
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Car Name</th>
+                <th>Engine</th>
+                <th>Power</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Buggati Tourbillion</td>
+                <td>8.3L V16 +3 E Motor</td>
+                <td>1800HP</td>
+            </tr>
+            <tr>
+                <td>Buggati Mistral</td>
+                <td>8.0L W16</td>
+                <td>1600HP</td>
+            </tr>
+            <tr>
+                <td>Buggati Chiron Super Sport</td>
+                <td>8.0L W16</td>
+                <td>1600HP</td>
+            </tr>
+            <tr>
+                <td>Buggati La Voitur Noire</td>
+                <td>8.0L W16</td>
+                <td>1600HP</td>
+            </tr>
+            <tr>
+                <td>Buggati Divo</td>
+                <td>8.0L W16</td>
+                <td>1600HP</td>
+            </tr>
+            <tr>
+                <td>Buggati Centodieci</td>
+                <td>8.0L W16</td>
+                <td>1600HP</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <iframe src="" frameborder="0"></iframe>
+
+    <iframe width="700" height="600" src="https://www.youtube.com/embed/PxarYPTICVc?si=i-sI-IzG8NPjZPqV"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>This is Block element</h1>
+    <h2>This is also a Block element</h2>
+    <span>This is Inline </span>
+    <span>This is also Inline</span>
+    <span>This is Third Span</span>
+    <p>This is First Para</p>
+    <p>This is Second Para</p>
+    
+    <pre>
+        #include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int i, n = 10, t1 = 0, t2 = 1, nT;  // Hardcoded value of n = 10
+
+    for (i = 1; i <= n; ++i) {
+        cout << t1 << " ";
+        nT = t1 + t2;
+        t1 = t2;
+        t2 = nT;
+    }
+    
+    return 0;
+}    
+    </pre>
+
+    <p>
+        #include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int i, n = 10, t1 = 0, t2 = 1, nT;  // Hardcoded value of n = 10
+
+    for (i = 1; i <= n; ++i) {
+        cout << t1 << " ";
+        nT = t1 + t2;
+        t1 = t2;
+        t2 = nT;
+    }
+    
+    return 0;
+}    
+</p>
+
+<!-- audio and video -->
+<audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+<!-- video -->
+
+<video width="600" height="400" controls>
+    <source src="fifaFinal.mp4" type="video/mp4">
+    <!-- <source src="movie.ogg" type="video/ogg"> -->
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
